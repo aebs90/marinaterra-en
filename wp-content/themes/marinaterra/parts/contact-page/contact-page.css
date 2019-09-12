@@ -1,0 +1,97 @@
+.map{
+	width: 50%;
+}
+
+.map-iframe{
+	width: 100%;
+	height: 620px;
+	border: 4px solid #333;
+}
+
+.contact-form{
+	padding: 15px;
+	background: #fafafa !important;
+	border: 4px solid #333;
+}
+
+.contact-form-description{
+	margin-bottom: 30px;
+	padding: 0 15px 15px;
+}
+
+.gform_footer{
+	overflow: hidden;
+	padding: 0 15px !important;
+}
+
+.gform_body{
+	overflow: hidden;
+	margin: -15px 0 0 !important;
+}
+
+.gfield{
+	clear: none !important;
+	float: left;
+	width: 50%;
+	padding: 0 15px;
+}
+
+.gfield_label{
+	color: #333;
+}
+
+.gfield:nth-child(1),
+.gfield:nth-child(2),
+.gfield:nth-child(5){
+	width: 100%;
+}
+
+.gfield input,
+.gfield select,
+.gfield textarea{
+	padding: 6px 15px !important;
+	width: 100% !important;
+	height: 50px;
+	line-height: 38px;
+	border: 1px solid #ccc;
+	background: #fff;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+}
+
+.gfield textarea{
+	padding: 15px !important;
+	height: 140px !important;
+	line-height: 1.5;
+}
+
+input[type="submit"]{
+	float: right;
+	padding: 15px 30px;
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #FFF;
+	background: #00476F;
+	border: none;
+}
+
+.contact-phones{
+	padding-bottom: 30px;
+}
+
+.contact-phones .contact-info{
+	float: left;
+	width: 33.3333%;
+	text-align: center;
+	line-height: 1.5;
+}
+
+.contact-phones .contact-info a{
+	color: #333;
+}
+
+.contact-phones .contact-info a:hover,
+.contact-phones .contact-info a:focus{
+	color: #00476F;
+}

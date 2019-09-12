@@ -1,0 +1,14 @@
+.legal{
+	float: none;
+	width: auto;
+}
+
+.legal ul{
+	float: none;
+	width: auto;
+}
+
+.legal li{
+	float: none;
+	display: block;
+}

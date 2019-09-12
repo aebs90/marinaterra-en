@@ -1,0 +1,26 @@
+.gallery{
+	overflow: hidden;
+	padding: 10px;
+	background: #E9E9E9;
+	border: 1px solid #D3D3D3;
+}
+
+.gallery-link{
+	float: left;
+	padding: 10px;
+	width: 20%;
+}
+
+.gallery-link:hover{
+	background: #333;
+}
+
+
+.mfp-bg,
+.mfp-wrap{
+	z-index: 99999 !important;
+}
+
+#wpadminbar{
+	z-index: 9999 !important;
+}

@@ -1,0 +1,41 @@
+#menu{
+	padding: 0;
+	width: 90%;
+}
+
+.menu-wrapper{
+	float: right;
+	position: relative;
+	padding: 0 15px;
+}
+
+.menu-box{
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	color: #333;
+	text-align: right;
+}
+
+.menu{
+	float: right;
+}
+
+.menu > li{
+	float: left;
+	position: relative;
+}
+
+.menu a{
+	display: block;
+	color: inherit;
+}
+
+.menu > li:hover > a,
+.menu a:hover,
+.menu a:focus{
+	color: #80C7E2;
+}
+
+.menu .featured a{
+	color: #00476F;
+}

@@ -1,0 +1,25 @@
+.contact{
+	padding: 0 15px;
+	width: 33.3333%;
+	line-height: 1.2;
+}
+
+.contact-info{
+	float: left;
+	margin-bottom: 30px;
+	width: 50%;
+	font-size: 16px;
+}
+
+.contact-info strong{
+	font-size: 18px;
+}
+
+.contact-info-email{
+	width: 66.6666% !important;
+}
+
+.contact-info-footer-email strong{
+	font-size: 26px;
+	line-height: 40px;
+}

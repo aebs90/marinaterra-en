@@ -1,0 +1,128 @@
+/* =============================================================
+ * - Document -
+ * ============================================================= */
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+:focus{
+	outline: none;
+}
+
+body{
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+header,
+footer,
+section{
+	z-index: 1;
+	position: relative;
+}
+
+.container{
+	z-index: 3;
+	position: relative;
+	margin: auto;
+	max-width: 1300px;
+}
+
+.wrapper{
+	float: left;
+	padding: 15px;
+}
+
+.box{
+	padding: 15px;
+}
+
+.boxes:after{
+	content: "";
+	clear: both;
+}
+
+@media( max-width: 1359px ) {
+
+	.container{
+		max-width: 1000px;
+	}
+
+}
+
+@media( max-width: 1023px ) {
+
+	.container{
+		max-width: 740px;
+	}
+
+}
+
+@media( max-width: 767px ) {
+
+	.container{
+		max-width: 600px;
+	}
+
+}
+
+.container:after,
+.boxes:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.box{
+	position: relative;
+	padding: 15px;
+}
+
+h1,h2,h3,h4,h5,h6,
+p,
+img,
+ul, ol, li,
+button{
+	display: block;
+	margin: 0 auto 15px;
+}
+
+*:last-child{
+	margin-bottom: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover,
+a:focus{
+	text-decoration: none;
+}
+
+/* =============================================================
+ * - Images -
+ * ============================================================= */
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+/** REMOVE SAFARI STYLES */
+input, textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}

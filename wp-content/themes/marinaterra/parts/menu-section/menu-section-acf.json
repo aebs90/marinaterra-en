@@ -1,0 +1,55 @@
+[
+    {
+        "key": "group_5a21307719884",
+        "title": "Menú",
+        "fields": [
+            {
+                "key": "field_5a21308d5cf12",
+                "label": "Menú",
+                "name": "menu_section",
+                "type": "select",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "activities": "Actividades",
+                    "amenities": "Amenidades",
+                    "atractions": "Atractivos",
+                    "weddings": "Bodas",
+                    "events": "Eventos",
+                    "restaurant": "Gastronomía",
+                    "rooms": "Habitaciones"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "ajax": 0,
+                "return_format": "value",
+                "placeholder": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "page"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "acf_after_title",
+        "style": "seamless",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 0,
+        "description": ""
+    }
+]

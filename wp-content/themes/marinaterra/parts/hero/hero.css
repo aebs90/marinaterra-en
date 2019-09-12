@@ -1,0 +1,19 @@
+.hero{
+	position: relative;
+	padding: 0;
+}
+
+.hero-title{
+	position: absolute;
+	top: 150px;
+	right: 0;
+	padding: 0.2em 0.4em;
+	font-size: 45px;
+	line-height: 1;
+	color: #FFF;
+	background: #00476F;
+}
+
+.hero-img{
+	width: 100%;
+}

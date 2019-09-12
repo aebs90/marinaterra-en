@@ -1,0 +1,21 @@
+.intro{
+	padding: 30px;
+	line-height: 2;
+	background: #E9E9E9;
+}
+
+.intro-img-wrapper{
+	padding-top: 35px;
+	max-width: 33.3333%;
+}
+
+.intro-img{
+	margin: 0;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+}
+
+.intro-content-wrapper{
+	width: 66.6666%;
+}

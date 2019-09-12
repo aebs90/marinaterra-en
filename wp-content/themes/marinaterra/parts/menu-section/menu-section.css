@@ -1,0 +1,32 @@
+.menu-section{
+	font-size: 20px;
+	color: #FFF;
+	text-align: center;
+	background: #333;
+}
+
+.menu-section ul{
+	float: none;
+}
+
+.menu-section li{
+	float: none;
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.menu-section a{
+	display: block;
+	padding: 6px 10px;
+	color: #FFF;
+}
+
+.menu-section .current-menu-item a{
+	background: #00476F;
+}
+
+.menu-section a:hover,
+.menu-section a:focus{
+	color: #008EC3;
+	background: #333;
+}

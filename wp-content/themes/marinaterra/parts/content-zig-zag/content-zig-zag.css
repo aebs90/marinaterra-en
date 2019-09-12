@@ -1,0 +1,7 @@
+.content-zig-zag:nth-child(odd) .main-content{
+	float: right;
+}
+
+.content-zig-zag:nth-child(odd) .main-image{
+	float: left;
+}

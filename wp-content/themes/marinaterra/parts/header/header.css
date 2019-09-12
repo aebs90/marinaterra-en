@@ -1,0 +1,17 @@
+header{
+	z-index: 10000;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	background: #FFF;
+	border-bottom: 1px solid #D3D3D3;
+}
+
+body{
+	padding-top: 90px;
+}
+
+.admin-bar header{
+	top: 32px;
+}

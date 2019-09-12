@@ -1,0 +1,151 @@
+[
+    {
+        "key": "group_5a2e5c1c9abe9",
+        "title": "Inicio",
+        "fields": [
+            {
+                "key": "field_5a2e5c35934e7",
+                "label": "Inicio",
+                "name": "home",
+                "type": "group",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "row",
+                "sub_fields": [
+                    {
+                        "key": "field_5a2e5c4a934e8",
+                        "label": "Sección 1",
+                        "name": "section_1",
+                        "type": "post_object",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": [
+                            "page"
+                        ],
+                        "taxonomy": [],
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "return_format": "id",
+                        "ui": 1
+                    },
+                    {
+                        "key": "field_5a2e5cf3934ea",
+                        "label": "Sección 2",
+                        "name": "section_2",
+                        "type": "post_object",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": [
+                            "page"
+                        ],
+                        "taxonomy": [],
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "return_format": "id",
+                        "ui": 1
+                    },
+                    {
+                        "key": "field_5a2e5cfa934eb",
+                        "label": "Sección 3",
+                        "name": "section_3",
+                        "type": "post_object",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": [
+                            "page"
+                        ],
+                        "taxonomy": [],
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "return_format": "id",
+                        "ui": 1
+                    },
+                    {
+                        "key": "field_5a2e5d02934ec",
+                        "label": "Otras Secciones",
+                        "name": "section_others",
+                        "type": "repeater",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "collapsed": "",
+                        "min": 0,
+                        "max": 0,
+                        "layout": "row",
+                        "button_label": "Agregar Sección",
+                        "sub_fields": [
+                            {
+                                "key": "field_5a2e5d1c934ed",
+                                "label": "Section",
+                                "name": "section",
+                                "type": "post_object",
+                                "instructions": "",
+                                "required": 1,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "post_type": [
+                                    "page"
+                                ],
+                                "taxonomy": [],
+                                "allow_null": 0,
+                                "multiple": 0,
+                                "return_format": "id",
+                                "ui": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "post"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 0,
+        "description": ""
+    }
+]

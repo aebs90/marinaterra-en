@@ -1,0 +1,41 @@
+.menu-secondary-wrapper{
+	top: -50px;
+	height: 30px;
+}
+
+.menu-secondary{
+	line-height: 20px;
+	font-size: 14px;
+}
+
+.menu-secondary .menu > li{
+	margin-left: 15px;
+	padding: 10px 0 0 15px;
+}
+
+.menu-secondary .menu > li:before{
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 0;
+	display: block;
+	margin-top: 5px;
+	width: 1px;
+	height: 15px;
+	background: #333;
+	transform: translate( 0, -50% );
+}
+
+.menu-secondary .menu > li:first-child:before{
+	display: none;
+}
+
+.menu-secondary img{
+	margin-right: 2px;
+	vertical-align: middle;
+}
+
+.menu-secondary-wrapper img{
+	display: inline-block;
+	max-width: 22px;
+}

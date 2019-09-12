@@ -1,0 +1,7 @@
+#chat{
+	z-index: 999999;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	background: #FFF;
+}

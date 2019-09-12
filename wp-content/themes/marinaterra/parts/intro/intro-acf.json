@@ -1,0 +1,104 @@
+[
+    {
+        "key": "group_5a2acdb41ec29",
+        "title": "Intro",
+        "fields": [
+            {
+                "key": "field_5a2acdd325b7d",
+                "label": "Intro",
+                "name": "intro",
+                "type": "group",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "row",
+                "sub_fields": [
+                    {
+                        "key": "field_5a2acddc25b7e",
+                        "label": "Título",
+                        "name": "title",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5a2acde725b7f",
+                        "label": "Contenido",
+                        "name": "content",
+                        "type": "wysiwyg",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "tabs": "all",
+                        "toolbar": "full",
+                        "media_upload": 1,
+                        "delay": 0
+                    },
+                    {
+                        "key": "field_5a2acdf125b80",
+                        "label": "Imagen",
+                        "name": "image",
+                        "type": "image",
+                        "instructions": "<b>Resolución mínima:<\/b>\r\n650x434\r\n|\r\n<b>Resolución recomendada:<\/b>\r\n2048x1366\r\n|\r\n<b>Tamaño máximo:<\/b>\r\n2MB",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "id",
+                        "preview_size": "pro-sm",
+                        "library": "all",
+                        "min_width": 650,
+                        "min_height": 434,
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": 2,
+                        "mime_types": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "post"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 0,
+        "description": ""
+    }
+]

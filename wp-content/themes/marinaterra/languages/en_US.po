@@ -1,0 +1,249 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Marinaterra\n"
+"POT-Creation-Date: 2018-01-06 05:48-0700\n"
+"PO-Revision-Date: 2018-01-06 05:50-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: acf/front-page.php:54
+msgid "Inicio"
+msgstr "Home"
+
+#: acf/group-featured-image.php:12
+msgid "Imagen Destacada"
+msgstr "Featured Image"
+
+#: acf/group-gallery.php:7 acf/group-gallery.php:13 acf/page-fishing.php:7
+#: acf/page-yacht.php:7
+msgid "Galería"
+msgstr "Gallery"
+
+#: acf/group-hero.php:12
+msgid "Hero"
+msgstr "Hero"
+
+#: acf/group-menu-section.php:12
+msgid "Menú"
+msgstr "Menu"
+
+#: acf/page-contact.php:7
+msgid "Formulario de Contacto"
+msgstr "Contact Form"
+
+#: acf/page-contact.php:11
+msgid "ID del Formulario"
+msgstr "Contact Form ID"
+
+#: acf/page-contact.php:15 acf/page-content-zig-zag.php:12
+msgid "Título"
+msgstr "Title"
+
+#: acf/page-contact.php:19
+msgid "Descripción"
+msgstr "Description"
+
+#: acf/page-contact.php:25 acf/theme-options.php:7
+msgid "Teléfonos"
+msgstr "Phones"
+
+#: acf/page-contact.php:26 acf/theme-options.php:8
+msgid "Agregar Teléfono"
+msgstr "Add Phone"
+
+#: acf/page-contact.php:30 acf/theme-options.php:12
+msgid "País"
+msgstr "Country"
+
+#: acf/page-contact.php:34 acf/theme-options.php:16
+msgid "Teléfono"
+msgstr "Phone"
+
+#: acf/page-contact.php:43 page-contact.php:77
+msgid "Correo Electrónico"
+msgstr "Email"
+
+#: acf/page-contact.php:49
+msgid "Contacto"
+msgstr "Contact"
+
+#: acf/page-content-zig-zag.php:7 acf/page-content-zig-zag.php:28
+msgid "Contenido en Zig Zag"
+msgstr "Zig Zag Content"
+
+#: acf/page-content-zig-zag.php:8
+msgid "Agregar Contenido"
+msgstr "Add Content"
+
+#: acf/page-content-zig-zag.php:16
+msgid "Contenido"
+msgstr "Content"
+
+#: acf/page-content-zig-zag.php:20
+msgid "Imagen"
+msgstr "Image"
+
+#: acf/page-fishing.php:13
+msgid "Pesca"
+msgstr "Fishing"
+
+#: acf/page-index.php:17
+msgid "Índice"
+msgstr "Index"
+
+#: acf/page-yacht.php:13
+msgid "Paseo en Yate"
+msgstr "Yacht Ride"
+
+#: acf/theme-options.php:28
+msgid "Redes Sociales"
+msgstr "Social Networks"
+
+#: acf/theme-options.php:29
+msgid "Agregar Red Social"
+msgstr "Add Social Network"
+
+#: acf/theme-options.php:33
+msgid "Código FontAwesome"
+msgstr "FontAwesome Code"
+
+#: acf/theme-options.php:37
+msgid "URL"
+msgstr "URL"
+
+#: acf/theme-options.php:49
+msgid "Página de Contacto"
+msgstr "Contact Page"
+
+#: acf/theme-options.php:55
+msgid "Opciones del Tema"
+msgstr "Theme Options"
+
+#: footer.php:72
+msgid "Contáctanos"
+msgstr "Contact Us"
+
+#: footer.php:91
+msgid "Todos los derechos reservados."
+msgstr "All rights reserved."
+
+#: functions.php:15
+msgid "Principal"
+msgstr "Main"
+
+#: functions.php:16
+msgid "Secundario"
+msgstr "Secondary"
+
+#: functions.php:17
+msgid "Pie de página"
+msgstr "Footer"
+
+#: functions.php:18
+msgid "Habitaciones"
+msgstr "Rooms"
+
+#: functions.php:19
+msgid "Amenidades"
+msgstr "Amenities"
+
+#: functions.php:20
+msgid "Bodas"
+msgstr "Weddings"
+
+#: functions.php:21
+msgid "Gastronomía"
+msgstr "Gastronomy"
+
+#: functions.php:22
+msgid "Actividades"
+msgstr "Activities"
+
+#: functions.php:23
+msgid "Eventos"
+msgstr "Events"
+
+#: functions.php:24
+msgid "Atractivos"
+msgstr "Atractives"
+
+#: functions.php:96
+msgid "Theme Options"
+msgstr "Theme Options"
+
+#: page-contact.php:22
+msgid "Solicitud de Información"
+msgstr "Information Request"
+
+#: page-contact.php:23
+msgid "Escríbenos un mensaje, con gusto responderemos todas tus dudas."
+msgstr "Send us a message, we will respond all your questions."
+
+#: page-contact.php:24
+msgid ""
+"NOTA: Este formulario es solo para solicitud de información, uno de\n"
+"\t\t\t\t\tnuestros representantes se comunicará con usted para concretar la "
+"reservación."
+msgstr ""
+"IMPORTANT: This form is only for general information, somebody from our "
+"staff will get in touch with you to confirm any reservation details."
+
+#: page-contact.php:68
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: page-index.php:56
+msgid "Más información"
+msgstr "More information"
+
+#: parts/intro/intro.php:6
+msgid "Webcam"
+msgstr "Webcam"
+
+#: parts/logo/logo.php:8
+msgid "Marinaterra"
+msgstr "Marinaterra"
+
+#: parts/reservation/reservation.php:7
+msgid "Reserva Ahora"
+msgstr "Book Now"
+
+#: parts/reservation/reservation.php:8
+msgid "¡Asegura ya tus vacaciones!"
+msgstr "Book your vacations now!"
+
+#: parts/reservation/reservation.php:24 parts/slider/slider.php:39
+msgid "Llegada"
+msgstr "Check In"
+
+#: parts/reservation/reservation.php:29 parts/slider/slider.php:44
+msgid "Salida"
+msgstr "Check Out"
+
+#: parts/reservation/reservation.php:34 parts/slider/slider.php:49
+msgid "Adultos"
+msgstr "Adults"
+
+#: parts/reservation/reservation.php:44 parts/slider/slider.php:59
+msgid "Niños"
+msgstr "Children"
+
+#: parts/reservation/reservation.php:55
+msgid "Continuar"
+msgstr "Continue"
+
+#: parts/slider/slider.php:70
+msgid "Reservar"
+msgstr "Book"
+
+#~ msgid "Descarga nuestra APP:"
+#~ msgstr "Download our APP:"

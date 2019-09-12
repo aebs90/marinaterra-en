@@ -1,0 +1,13 @@
+.legal{
+	float: left;
+	padding: 0 15px;
+}
+
+.legal ul{
+	margin: 0;
+}
+
+.legal li{
+	margin: 0;
+	display: inline-block;
+}

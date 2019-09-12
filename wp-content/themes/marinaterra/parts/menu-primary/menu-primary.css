@@ -1,0 +1,72 @@
+.menu-primary-wrapper{
+	top: 40px;
+	height: 60px;
+}
+
+.menu-primary{
+	line-height: 45px;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.menu-primary .menu > li{
+	margin-left: 15px;
+	padding-bottom: 5px;
+}
+
+.menu-primary .current-menu-parent > a{
+	color: #80C7E2;
+}
+
+.menu-primary .sub-menu{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 200px;
+	font-size: 14px;
+	text-align: center;
+	background: #FFF;
+	
+	-webkit-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.1);
+	box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.1);
+	
+	transform-origin: top center;
+	transform: translate( -50%, 100% ) rotateX( 90deg );
+	
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;	
+}
+
+.menu-primary .menu > li:hover .sub-menu{
+	transform: translate( -50%, 100% ) rotateX( 0 );
+}
+
+.menu-primary .menu > li:last-child .sub-menu{
+	margin-left: 15px;
+	left: 100%;
+	transform: translate( -100%, 100% ) rotateX( 90deg );
+}
+
+.menu-primary .menu > li:last-child:hover .sub-menu{
+	transform: translate( -100%, 100% ) rotateX( 0 );
+}
+
+.menu-primary .sub-menu li{
+	margin: 0;
+}
+
+.menu-primary .sub-menu a{
+	padding: 10px 15px;
+	line-height: 1.2;
+	text-align: left;
+	color: #FFF;
+	background: #00476F;
+}
+
+.menu-primary .sub-menu a:hover{
+	color: #FFF;
+	background: #333;
+}

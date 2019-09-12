@@ -1,0 +1,8 @@
+#menu .menu-secondary-wrapper{
+	top: auto;
+	height: auto;
+}
+
+#menu .menu-secondary .menu > li:before{
+	display: none;
+}

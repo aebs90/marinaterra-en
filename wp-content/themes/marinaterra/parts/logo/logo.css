@@ -1,0 +1,14 @@
+.logo-wrapper{
+	padding: 10px 15px;
+	width: 10%;
+}
+
+.logo{
+	padding: 0;
+}
+
+.logo-img{
+	float: left;
+	max-width: 120px;
+	max-height: 70px;
+}
