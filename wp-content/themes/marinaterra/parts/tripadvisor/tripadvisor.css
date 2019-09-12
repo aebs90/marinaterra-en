@@ -1,0 +1,14 @@
+.tripadvisor{
+	padding: 0 15px;
+	width: 33.3333%;
+	border-right: 1px solid #D3D3D3;
+	border-left: 1px solid #D3D3D3;
+}
+
+.tripadvisor-link{
+	float: left;
+	display: block;
+	padding: 0 15px;
+	width: 33.3333%;
+}
+

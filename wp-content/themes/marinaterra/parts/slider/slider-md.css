@@ -1,0 +1,39 @@
+.swiper-button-prev,
+.swiper-button-next{
+	margin-top: -20px;
+	width: 30px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+}
+
+.home-reservation{
+	bottom: 10px;
+	margin-left: -325px;
+	padding: 5px 5px 10px;
+	width: 650px;
+}
+
+.home-reservation label{
+	font-size: 14px;
+}
+
+.home-reservation .field{
+	padding: 0 8px;
+}
+
+.home-reservation .date-field{
+	width: 20%;
+}
+
+.home-reservation .date-field:after{
+	display: none;
+}
+
+.home-reservation .form-footer{
+	width: 30%;
+}
+
+.home-reservation input[type="submit"]{
+	font-size: 14px;
+}

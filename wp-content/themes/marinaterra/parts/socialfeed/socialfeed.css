@@ -1,0 +1,17 @@
+.socialfeed{
+	padding: 15px 0;
+	background: #E9E9E9;
+	border-top: 1px solid #D3D3D3;
+}
+
+.socialfeed-widget{
+	float: left;
+	width: 33.33333%;
+	max-height: 400px;
+}
+
+.fb-page {
+	margin: auto !important;
+	display: block !important;
+	width: 340px !important;
+}

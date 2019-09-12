@@ -1,0 +1,70 @@
+[
+    {
+        "key": "group_5a2ac7cba0aa1",
+        "title": "Slider",
+        "fields": [
+            {
+                "key": "field_5a2ac7e6d61bd",
+                "label": "Slides",
+                "name": "slides",
+                "type": "repeater",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "row",
+                "button_label": "Add Slide",
+                "sub_fields": [
+                    {
+                        "key": "field_5a2ac7fdd61be",
+                        "label": "Image",
+                        "name": "image",
+                        "type": "image",
+                        "instructions": "<b>Resolución mínima:<\/b><br>\r\n1400x467<br>\r\n<br>\r\n<b>Resolución recomendada:<\/b><br>\r\n2048x683<br>\r\n<br>\r\n<b>Tamaño máximo:<\/b><br>\r\n2MB",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "id",
+                        "preview_size": "ultra-panoramic-sm",
+                        "library": "all",
+                        "min_width": 1400,
+                        "min_height": 467,
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": 2,
+                        "mime_types": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "post"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 0,
+        "description": ""
+    }
+]

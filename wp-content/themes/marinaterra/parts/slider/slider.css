@@ -1,0 +1,127 @@
+.swiper-button-prev,
+.swiper-button-next{
+	position: absolute;
+	display: block;
+	top: 50%;
+	margin-top: -25px;
+	padding: 0;
+	width: 40px;
+	height: 50px;
+	font-size: 28px;
+	line-height: 50px;
+	text-align: center;
+	color: #FFF;
+	background: rgba( 51, 51, 51, 0.75 );
+}
+
+.swiper-button-prev:hover,
+.swiper-button-prev:focus,
+.swiper-button-next:hover,
+.swiper-button-next:focus{
+	background: rgba( 51, 51, 51, 1 );
+}
+
+.swiper-button-prev:before,
+.swiper-button-next:before{
+	font-family: FontAwesome;
+}
+
+.swiper-button-prev{
+	left: 0;
+}
+
+.swiper-button-prev:before{
+	content: "\f053";
+}
+
+.swiper-button-next{
+	right: 0;
+}
+
+.swiper-button-next:before{
+	content: "\f054";
+}
+
+.slider img{
+	width: 100%;
+	height: auto;
+}
+
+
+/* ----------------------------- */
+
+.home-reservation{
+	z-index: 3;
+	position: absolute;
+	top: auto;
+	bottom: 15px;
+	left: 50%;
+	margin-left: -400px;
+	display: none;
+	padding: 15px 15px 20px;
+	width: 800px;
+	background: rgba( 255, 255, 255, 0.8 );
+}
+
+.home-reservation{
+	display: block;
+}
+
+.home-reservation .field{
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0 15px;
+	width: 15%;
+}
+
+.home-reservation .date-field{
+	width: 25%;
+}
+
+.home-reservation .date-field:after{
+	z-index: 3;
+	content: "\f133";
+	position: absolute;
+	right: 30px;
+	bottom: 12px;
+	font: 18px/1 FontAwesome;
+	color: #333;
+}
+
+.home-reservation label{
+	display: block;
+	margin: 0 0 5px;
+	font-weight: 400; font-size: 16px;
+	line-height: 18px;
+}
+
+.home-reservation input,
+.home-reservation select{
+	display: block;
+	padding: 0 16px;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #CDCDCD;
+}
+
+.home-reservation .form-footer{
+	float: left;
+	padding: 25px 15px 0 15px;
+	width: 20%;
+}
+
+.home-reservation input[type="submit"]{
+	height: 42px;
+	font-size: 20px;
+	line-height: 42px;
+	color: #FFF;
+	background: <?php echo $primary_color; ?>;
+	border: none;
+}
+
+.home-reservation input[type="submit"]:hover,
+.home-reservation input[type="submit"]:focus{
+	background: <?php echo $primary_color_bright; ?>;
+}

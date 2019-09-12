@@ -1,0 +1,21 @@
+.home-reservation{
+	position: relative;
+	bottom: auto;
+	left: auto;
+	margin: 0;
+	padding: 15px;
+	width: auto;
+	background: #E9E9E9;
+}
+
+.home-reservation .field,
+.home-reservation .form-footer{
+	float: none;
+	margin: auto;
+	max-width: 600px;
+	width: 100%;
+}
+
+.home-reservation .form-footer{
+	overflow: hidden;
+}
