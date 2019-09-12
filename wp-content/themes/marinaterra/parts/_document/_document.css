@@ -109,3 +109,14 @@ td{
 #ui-datepicker-div{
 	z-index: 9999999 !important;
 }
+
+@media( max-width: 767px ) {
+	.socialfeed-widget{
+		margin: 30px 15px !important;
+		width: calc( 100% - 30px ) !important;
+	}
+
+	.socialfeed-widget:nth-child(2){
+		display: none !important;
+	}	
+}
