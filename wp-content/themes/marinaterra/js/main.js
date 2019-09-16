@@ -45,7 +45,7 @@ jQuery(document).ready(function($){
 	});
 	
 	$.ajax({
-		url : "http://api.wunderground.com/api/feed3d56ecbf5f17/conditions/q/27.95,-111.06.json",
+		url : "https://api.openweathermap.org/data/2.5/weather?id=3970677&APPID=8a3fe07e6cd6e1c6b1bf0e0e14e83e8d&units=metric",
 		dataType : "jsonp",
 		success : function(parsed_json) {
 			
@@ -58,9 +58,9 @@ jQuery(document).ready(function($){
 				: 'F';
 			
 			$('#the-weather').html(
-				parsed_json['current_observation'][ temp ]
+				parsed_json['main']['temp']
 				+ '°' + temp_txt + ' <img src="'
-				+ parsed_json['current_observation']['icon_url']
+				+ 'https://openweathermap.org/img/wn/' + parsed_json['weather'][0]['icon'] + '@2x.png'
 				+ '">');
 		}
 	});

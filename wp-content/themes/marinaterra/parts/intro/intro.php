@@ -4,7 +4,7 @@
 			<img
 				class="intro-img"
 				alt="<?php _e( 'Webcam', 'marinaterra' ); ?>"
-				src="http://webcamsdemexico.net/sancarlos1/live.jpg">
+				src="https://marinaterra.com/wp-content/webcam.php">
 		</div>
 		
 		<div class="intro-content-wrapper wrapper">
